@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+body {
+    font-family: poppins;
+    background-color: azure;
+    font-size: 18px;
+}
+
+.nama {
+    margin-top: 8px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.lead {
+    font-size: 0.9em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+
+.garis {
+    width: 15%;
+    margin: auto;
+    height: 2px;
+}
+
+.nama1 {
+    margin-top: 5px;
+    font-size: 0.9em;
+    font-weight: bolder;
+    margin: auto;
+}
+.nama2 {
+    margin-top: 10px;
+    font-size: 1.1em;
+    margin-bottom: -10px;
+}
+
+
+/* servicies */
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin-top: 30px;
+    gap: 50px;
+    margin-left: 1px;
+    width: 100%;
+}
+
+.service {
+    background-color: whitesmoke;
+    padding: 20px;
+    height: 230px;
+    text-align: center;
+    border: 1px rgb(157, 248, 241) solid;
+    border-radius: 10px;
+    box-shadow: 8px 2px 7px rgb(0, 0, 0, 0.3);
+}
+.service ul{
+    text-align: left;
+    font-size: 0.85em;
+} 
+.service ul li {
+    border-bottom: 1px solid gray;
+}
+
+/* soft skill */
+.skill p {
+    margin-top: 30px;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.progress {
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    position: relative;
+    font-weight: bold;
+}
+
+.progress-bar {
+    position: static;
+    left: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.progress-bar p {
+    text-align: left;
+    margin-top: 1px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.progress-bar span {
+    position: absolute;
+    right: 20px;
+    color: black;
+    font-size: 1.1em;
+}
+footer{
+    margin: 30px;
+    text-align: center;
+}
+button{
+    margin-left: 10px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: darkcyan;
+}

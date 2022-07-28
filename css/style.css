@@ -1,0 +1,748 @@
+body {
+    font-family: Poppins;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link {
+    color: black !important;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.055em;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #2180C5 !important;
+}
+
+
+/* Hiro */
+.hiro {
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.nama h1 {
+    background: -webkit-linear-gradient(98.77deg, rgba(0, 63, 225, 0.78) 3.65%, rgba(0, 209, 255, 0.91) 75.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-size: 0.9em;
+    font-weight: 900;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nama h1::after {
+    content: '';
+    display: block;
+    border-bottom: 5px solid #2180C5;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.nama p {
+    font-size: 0.55em;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.moto {
+    margin-top: -100px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.moto h3 {
+    font-size: 1em;
+    color: #2180C5;
+    font-weight: 600;
+}
+
+.moto h3 p {
+    color: black;
+    line-height: 25px;
+    font-size: 0.65em;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.moto span {
+    font-size: 0.48em;
+    text-align: left !important;
+    position: relative;
+    top: -20px;
+}
+
+.moto span::after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -10px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    margin-left: -10px;
+}
+
+.img {
+    position: absolute;
+    top: 0px;
+    left: 25%;
+    width: 40%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.elips1 {
+    width: 20%;
+    height: 35%;
+    position: absolute;
+    left: 29%;
+    top: 5%;
+    background-color: rgba(245, 211, 211, 1);
+    border-radius: 50%;
+}
+
+.elips2 {
+    width: 15%;
+    height: 25%;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    background-color: rgba(254, 255, 194, 1);
+}
+
+.elips3 {
+    width: 4%;
+    height: 7%;
+    background-color: rgba(194, 255, 200, 1);
+    position: absolute;
+    border-radius: 50%;
+    left: 52%;
+    top: 15%;
+}
+
+/* Akhir Hiro */
+
+/* main */
+.main {
+    background-color: rgba(216, 246, 214, 1);
+    height: 300px;
+    margin: 110px 0;
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    color: #2180C5;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.about p {
+    margin-top: -5px;
+    font-size: 0.5em;
+
+}
+
+.about button {
+    font-size: 0.7em;
+}
+
+.prestasi {
+    background-color: rgba(64, 167, 149, 1);
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    color: white;
+}
+
+.organisasi {
+    background-color: rgba(129, 178, 20, 1);
+    position: absolute;
+    top: 60%;
+    left: 55%;
+}
+
+.project {
+    position: absolute;
+    top: 85%;
+    left: 8%;
+    background-color: white;
+}
+
+.prestasi,
+.organisasi,
+.project {
+    width: 40%;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.project h1 {
+    color: rgba(33, 128, 197, 1) !important;
+}
+
+.prestasi h1,
+.organisasi h1,
+.project h1 {
+    font-weight: bold;
+    margin-left: 25px;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.prestasi h1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    background-size: cover;
+    width: 20%;
+    height: 15%;
+}
+
+.organisasi h1::before {
+    content: '';
+    display: block;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    background-size: cover;
+    width: 20%;
+    height: 15%;
+}
+
+.project h1::before {
+    content: '';
+    display: block;
+    top: 5%;
+    left: 15%;
+    position: absolute;
+    background-size: cover;
+    width: 20%;
+    height: 15%;
+}
+
+.prestasi ul,
+.organisasi ul,
+.project ul {
+    margin-top: 10px;
+    font-size: 0.56em;
+}
+
+.prestasi li,
+.organisasi li,
+.project li {
+    margin-top: 10px;
+}
+
+/* Akhir Main */
+
+/* Progres Bar */
+.skill {
+    position: relative;
+    height: 800px;
+    background-color: rgba(207, 255, 226, 1);
+    margin-top: 200px;
+    padding-top: 50px;
+}
+
+.skill h1 {
+    text-align: center;
+    font-size: 2.8em;
+    position: relative;
+    z-index: 1;
+}
+
+.progress {
+    margin-top: 30px;
+    height: 30px;
+    position: relative;
+    background-color: rgba(196, 196, 196, 1);
+}
+
+.progress-bar {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 600;
+
+}
+
+.progress-bar span {
+    position: absolute;
+    right: 10px;
+    color: black;
+}
+
+.circle1 {
+    width: 326px;
+    height: 317px;
+    border-radius: 50%;
+    background-color: rgba(177, 255, 250, 1);
+    position: absolute;
+    top: 8%;
+    left: -80px;
+}
+
+.circle2 {
+    width: 239px;
+    height: 246px;
+    background-color: rgba(240, 255, 178, 1);
+    position: absolute;
+    border-radius: 50%;
+    left: 250px;
+    top: 55%;
+}
+
+.circle3 {
+    width: 25%;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(233, 221, 253, 1);
+    left: 20px;
+    top: 80%;
+}
+
+/* akhir progres */
+/* footer */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.medsos {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+.medsos a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer img {
+    margin-top: 10px;
+    width: 40px;
+}
+
+figcaption {
+    margin-top: 10px;
+    letter-spacing: 0.08em;
+    font-size: 0.65em;
+}
+
+footer {
+    color: gray;
+    font-size: 0.6em;
+}
+
+/* AKhir Footer */
+/* Break points Tablet Device*/
+@media (min-width:750px) {
+    .hiro {
+        height: 360px;
+    }
+
+    .nama h1 {
+        font-size: 1.5em;
+        margin-top: 50px;
+    }
+
+    .nama p {
+        font-size: 1em;
+    }
+
+    .moto {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .moto h3 {
+        font-size: 1.5em;
+        margin-top: 100px;
+    }
+
+    .moto span {
+        font-size: 0.8em;
+        position: static;
+        margin-left: -25px;
+    }
+
+    .moto span::after {
+        width: 35px;
+        height: 35px;
+        margin-left: -50px;
+        top: 3px;
+    }
+
+    .img {
+        width: 30%;
+        height: 360px;
+    }
+
+    .main {
+        height: 450px;
+        margin: 110px 0;
+    }
+
+    .about h2 {
+        font-size: 1.3em;
+    }
+
+    .about p {
+        font-size: 0.7em;
+        line-height: 20px;
+    }
+
+    .about button {
+        margin-top: 20px;
+        font-size: 1em;
+        padding: 5px 15px;
+    }
+
+    .prestasi,
+    .organisasi,
+    .project {
+        height: 300px;
+        padding: 22px;
+        border-radius: 30px;
+    }
+
+    .prestasi {
+        top: -15%;
+    }
+
+    .organisasi {
+        top: 65%;
+    }
+
+    .prestasi h1,
+    .organisasi h1,
+    .project h1 {
+        font-size: 1.7em;
+        margin-left: 45px;
+    }
+
+    .prestasi h1::before,
+    .organisasi h1::before,
+    .project h1::before {
+        top: 25px;
+        left: 60px;
+        width: 15%;
+        height: 16%;
+    }
+
+    .organisasi h1::before {
+        left: 35px;
+    }
+
+    .prestasi ul,
+    .organisasi ul,
+    .project ul {
+        margin-top: 15px;
+        font-size: 0.92em;
+    }
+
+    .skill {
+        height: 500px;
+        margin-top: 300px;
+    }
+
+    .circle1 {
+        top: 30px;
+        left: 80px;
+    }
+
+    .circle2 {
+        left: 430px;
+        top: 80px;
+    }
+
+    .circle3 {
+        width: 132px;
+        height: 139px;
+        left: 330px;
+        top: 330px;
+    }
+
+    .medsos {
+        width: 50%;
+    }
+
+    .medsos figcaption {
+        font-size: 0.7em;
+    }
+
+    .footer footer {
+        font-size: 0.8em;
+    }
+}
+
+/* Laptop Device */
+@media (min-width:1100px) {
+    .navbar {
+        position: sticky;
+        top: 0;
+        background-color: white;
+        z-index: 11;
+    }
+
+    .nav-link {
+        font-size: 1em;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #2180C5;
+        border-radius: 5px;
+        width: 50%;
+        margin: auto;
+        margin-bottom: -3px;
+    }
+
+    .hiro {
+        height: 594px;
+    }
+
+    .nama h1 {
+        font-size: 2.1em;
+        margin-top: 30px;
+    }
+
+    .nama p {
+        font-size: 1.5em;
+    }
+
+    .moto {
+        position: relative;
+        z-index: 1;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .moto h3 {
+        font-size: 2em;
+        margin-top: 150px;
+    }
+
+    .moto span {
+        font-size: 1.1em;
+        position: static;
+        margin-left: -25px;
+    }
+
+    .moto span::after {
+        width: 45px;
+        height: 45px;
+        background-size: cover;
+        top: 0px;
+        left: 0px;
+        margin-left: -80px;
+    }
+
+    .img {
+        height: 594px;
+    }
+
+    .elips1 {
+        left: 24%;
+        top: 5%;
+    }
+
+    .elips2 {
+        left: 39%;
+        top: 25%;
+    }
+
+    .elips3 {
+        left: 45%;
+        top: 16%;
+    }
+
+    .main {
+        height: 541px;
+        margin: 210px 0;
+    }
+
+    .about h2 {
+        font-size: 2em;
+    }
+
+    .about p {
+        font-size: 1em;
+        line-height: 25px;
+    }
+
+    .about button {
+        margin-top: 20px;
+        width: 200px;
+        height: 50px;
+        font-size: 1.1em;
+    }
+
+    .prestasi,
+    .organisasi,
+    .project {
+        width: 352px;
+        height: 375px;
+        padding: 22px;
+        border-radius: 50px;
+    }
+
+    .prestasi {
+        top: -25%;
+        left: 50%;
+        color: white;
+    }
+
+    .organisasi {
+        top: 80%;
+        left: 30%;
+    }
+
+    .project {
+        top: 55%;
+        left: 67%;
+    }
+
+    .prestasi h1,
+    .organisasi h1,
+    .project h1 {
+        font-size: 2em;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+
+    .prestasi h1::before,
+    .organisasi h1::before,
+    .project h1::before {
+        top: 35px;
+        left: 70px;
+        width: 15%;
+        height: 15%;
+    }
+
+    .organisasi h1::before {
+        left: 45px;
+    }
+
+    .prestasi ul,
+    .organisasi ul,
+    .project ul {
+        margin-top: 20px;
+        font-size: 1em;
+    }
+
+    .prestasi li,
+    .organisasi li,
+    .project li {
+        margin-top: 20px;
+    }
+
+    .skill {
+        height: 500px;
+        margin-top: 300px;
+    }
+
+    .circle1 {
+        width: 326px;
+        height: 317px;
+        top: 30px;
+        left: 230px;
+    }
+
+    .circle2 {
+        width: 239px;
+        height: 246px;
+        left: 600px;
+        top: 60px;
+    }
+
+    .circle3 {
+        width: 152px;
+        height: 159px;
+        left: 500px;
+        top: 300px;
+    }
+
+    .medsos {
+        width: 50%;
+    }
+
+    .footer img {
+        width: 60px;
+    }
+
+    .medsos figcaption {
+        font-size: 1em;
+    }
+
+    .footer footer {
+        font-size: 1em;
+    }
+}
+
+/* Desktop Device */
+@media (min-width:1200px) {
+    .organisasi {
+        top: 76%;
+        left: 36%;
+    }
+
+    .circle1 {
+        top: 15px;
+        left: 380px;
+    }
+
+    .circle2 {
+        left: 720px;
+        top: 40px;
+    }
+
+    .circle3 {
+        left: 650px;
+        top: 280px;
+    }
+}

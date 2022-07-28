@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins;
+}
+.kanan{
+    float: right;
+    width: 80%;
+    height: 589px;
+    background-color: #BFDBE1;
+}
+
+.title{
+    margin-top: 18px;
+    margin-left: 3%;
+    line-height: 40px;
+}
+
+.kanan h1{
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#angkatan{
+    margin-top: -1%;
+}
+
+.container{
+    width: 94%;
+    height: 80%;
+    background-color: white;
+    margin-left: 3%;
+    margin-top: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.container:hover{
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.field{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    
+}
+
+#born{
+    margin-left: 70px;
+}
+
+.kiri{
+    width: 20%;
+    height: 589px;
+    background-color: #EAFBFF;
+}
+
+#petik{
+    width: 65%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+#line{
+    size: 2px;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.add, .edit, .delete{
+    display: flex;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.add{
+    margin-top: 5%;
+}
+.kiri1 a{
+    text-decoration: none;
+    color: black;
+}
+.kiri1 img{
+    width: 13.5%;
+    margin-left: 10px;
+}
+
+.kiri1 h3{
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 1.3em;
+}
+
+.edit, .delete{
+    margin-left: 7%;
+}
+
+.edit h3, .delete h3{
+    margin-left: 3%;
+}
+
+.content{
+    margin-top: 5px;
+}
+.date{
+    margin-top: 60px;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #BFDBE1;
+    width: 95%;
+    padding: 1%;
+    margin: 10px auto;
+    border-radius: 3px;
+}
+
+.data img{
+    width: 8%;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid #BFDBE1;
+}
+
+
+#nama{
+    font-size: 1.2em;
+    width: 275px;
+    color: black;
+}
+
+#jurusan{
+    font-size: 0.8em;
+    color: #717171;
+}
+
+#ttl{
+    color: black;
+    width: 210px;
+}
+
+#motto{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 0.85em;
+    color: #717171;
+}
+
+/* .action{
+    width: 3%;
+    padding-left: 2%;
+} */
+
+/* .action img{
+    width: 80%;
+}
+
+.action img:hover{
+    border: 3px solid #BFDBE1;
+} */
+
+.home{
+    display: flex;
+    margin-top: 100%;
+    margin-left: 12%;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #BFDBE1;
+}
+
+.home:hover{
+    background-color: #83aeb8;
+    transition: 0.5s;
+}
+
+.home img{
+    width: 18%;
+    padding-left: 22%;
+}
+
+.home h2{
+    margin-top: 5%;
+    padding-left: 2%;
+}
+

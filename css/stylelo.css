@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EAFBFF;
+    font-family: Poppins;
+}
+.container{
+    width: 80%;
+    margin:4.5% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.i{
+    transform: rotate(180deg);
+}
+.return {
+    color: white;
+    text-shadow:  0px 1px 5px rgb(0, 0,0,1);
+    font-size: 1em;
+    text-decoration: none;
+    margin-left: 22px;
+}
+.error{
+    width: 320px;
+    margin: 20px auto;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #c4dadf;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 6px 6px 10px rgba(0,0, 0, .3);
+    text-shadow: 0px 1px 5px rgb(0, 0,0,1);;
+}
+.login{
+    width: 320px;
+    height: 325px;
+    background-color: #BFDBE1;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgba(0,0, 0, .3);
+    margin-bottom: 30px;
+}
+.right{
+    order: 1;
+}
+.cek {
+    margin-top: 10px;
+    margin-left: 22px;
+    width:15px;
+}
+label {
+    font-size: 1.1em;
+    color: white;
+    text-shadow: 0px 1px 4px rgb(0, 0,0,1);
+}
+.username{
+    margin: 30px 22px;
+}
+.password {
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+.username, .password{
+    height: 55px;
+    width: 88%;
+    font-size: 1.1em;
+    background-color: #EAFBFF;
+    color: #72979e;
+    text-indent: 15px;
+    border: none;
+    border-radius: 10px;
+    outline-color: #AAAAAA;
+}
+
+.submit-button{
+    height: 60px;
+    width: 88%;
+    margin-left: 22px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #86A9B0;
+    color: #EAFBFF;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.submit-button:hover{
+    background-color: #5894A0;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.decor{
+    margin:30px 0;
+    line-height: 26px;
+}
+.decor h1{
+    color: #5894A0;
+    font-size: 2.7em;
+}
+
+.decor h2{
+    margin-top: 26px;
+    color: #AAAAAA;
+    font-size: 1.3em;
+}

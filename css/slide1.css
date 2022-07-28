@@ -1,0 +1,124 @@
+
+.body1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider1{
+    width: 100%;
+    overflow: hidden;
+}
+.slides1{
+    display: flex;
+    width: 520%;
+    height: 330px;
+}
+.slides1 input{
+    display: none;
+}
+.slidy1 {
+    width: 20%;
+    transition: 2s;
+}
+.slidy1 .conten1{
+    display: flex;
+    width: 100%;
+}
+.navigation-manual1{
+    position: absolute;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn1{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn1:not(:last-child){
+    margin-right: 20px;
+}
+.manual-btn1:hover{
+    background-color: rgba(70, 94, 94, 0.253);
+}
+
+/* psj */
+#radio11:checked ~ .first1 {
+    margin-left: 0;
+}
+#radio21:checked ~ .first1 {
+    margin-left: -20%;
+}
+#radio31:checked ~ .first1 {
+    margin-left: -40%;
+}
+#radio41:checked ~ .first1 {
+    margin-left: -60%;
+}
+#radio51:checked ~ .first1 {
+    margin-left: -80%;
+}
+.navigation-auto1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-top: 330px;
+}
+.navigation-auto1 div{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto1 div:not(:last-child){
+    margin-right: 20px;
+}
+
+/* psj */
+#radio11:checked ~ .navigation-auto1 .auto-btn11{
+    background-color: rgba(70, 94, 94, 0.253);;
+}
+#radio21:checked ~ .navigation-auto1 .auto-btn21{
+    background-color: rgba(70, 94, 94, 0.253);;
+}
+#radio31:checked ~ .navigation-auto1 .auto-btn31{
+    background-color: rgba(70, 94, 94, 0.253);;
+}
+#radio41:checked ~ .navigation-auto1 .auto-btn41{
+    background-color: rgba(70, 94, 94, 0.253);;
+}
+#radio51:checked ~ .navigation-auto1 .auto-btn51{
+    background-color: rgba(70, 94, 94, 0.253);;
+} 
+@media (max-width:450px) {
+    .slides1{
+        height: 180px;
+    }
+    .navigation-auto1{
+        margin-top: 180px;
+    }
+    .navigation-auto1 div:not(:last-child){
+        margin-right: 5px;
+    }
+    .manual-btn1:not(:last-child){
+        margin-right: 5px;
+    }
+}
+@media (max-width:950px) {
+    .slides1{
+        height: 230px;
+    }
+    .navigation-auto1{
+        margin-top: 230px;
+    }
+    .navigation-auto1 div:not(:last-child){
+        margin-right: 5px;
+    }
+    .manual-btn1:not(:last-child){
+        margin-right: 5px;
+    }
+}

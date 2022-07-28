@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+/* Navbar */
+body{
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.nav-link {
+    font-size: 1.25em;
+    color: black !important;
+}
+/* Hiro */
+.carousel {
+    margin-top: 70px;
+    position: relative;
+}
+.tulisan {
+    position: absolute;
+    top: 80%;
+    width: 32%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: left;
+    height: 30px;
+    background-color:#3465a4;
+    font-size: 0.56em;
+    border-radius:0 5px 5px 0px ;
+    color: white;
+    z-index: 3;
+}
+.h2{
+    font-size: 1.1em;
+}
+.h1 {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+.p {
+    font-size: 0.65em;
+}
+.card{
+    width: 6.5rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, .3);
+}
+.card-body{
+    font-size: 0.5em;
+}
+.h4{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+article a{
+text-decoration: none;
+color: black;
+}
+article a:hover{
+    color: black;
+}
+.gradient{
+    position: absolute;
+    width: 100%;
+    height: 72px;   
+    top:67%;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #FFFFFF 70%);
+}
+footer {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.footer {
+    font-size: 0.8em;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.footer img{
+    width: 13%;
+    margin-right: 30px;
+}
+
+@media (min-width:750px) {
+    .tulisan {
+        top: 75%;
+        width: 24%;
+        height: 50px;
+        font-size: 1em;
+        line-height: 20px;
+    }
+    .gradient{
+        height: 150px;
+        top:65%;
+    }
+    .h2{
+        font-size: 2em;
+    }
+    .card{
+        width: 11rem;
+        box-shadow: 10px 5px 7px rgba(0, 0, 0, .3);
+    }
+    .footer {
+        font-size: 1em;
+        padding-left: 40px;
+        width: 70%;
+        padding-left: 40px;
+        justify-content: space-between;
+    }
+    .footer img{
+        width: 10%;
+    }
+}
+@media (min-width:1100px) {
+    .tulisan {
+        top: 85%;
+        width: 25%;
+        padding: 5px 20px;
+        height: 65px;
+        font-size: 1.2em;
+        line-height: 20px;
+    }
+    .p {
+        font-size: 0.77em;
+    }
+    .h2{
+        font-size: 2em;
+    }
+    .gradient{
+    height: 200px; 
+    top:70%;
+    }
+    .card{
+        width: 17rem;
+    }
+    .card-body{
+        font-size: 1em;
+    }
+    .footer {
+        font-size: 1em;
+        padding-left: 40px;
+        width: 60%;
+        padding-left: 40px;
+        justify-content: space-between;
+    }
+    .footer img{
+        width: 8%;
+    }
+}
+@media (min-width:1200px) {
+    .tulisan {
+        width: 23%;
+        padding: 5px 10px;
+        font-size: 1.4em;
+        line-height: 15px;
+    }
+    .gradient{
+        height: 200px; 
+        top:72%;
+        }
+    .footer img{
+        width: 6%;
+    }    
+}
